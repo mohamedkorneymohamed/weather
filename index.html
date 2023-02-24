@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start header  -->
+   <header>
+       <!-- start nav  -->
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container p-3 text-white ">
+            <div class="logo ">
+                <a class="navbar-brand text-end" href="#"><img src="images/logo@2x.png " class=" w-25 "  alt="">
+                    <div class="d-inline-block text-white text-center text-logo"> 
+                    <h1 class="fs-5 mb-0 ">Weather </h1>
+                    <small class="fs-6 text-light">tagline goes here  </small></div>
+                </a>
+</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0  text-center">
+              <li class="nav-item">
+                <a class="nav-link active fs-6" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#">live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6"  href="#">photo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav  -->
+      <!-- start home  -->
+<div class="home py-2 ">
+<div class="container ">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form mt-5 ">
+                <div class="row mb-4">
+                    <div class=" col-md-12">
+                        <div class="input-content position-relative">
+                            <input type="text" class="search form-control py-2 bg-dark rounded-5 border-0  text-white" placeholder="find your location" id="search">
+                            <button class="btn btn-info position-absolute bottom-0 top-0 end-0 text-white px-5  rounded-5 fs-6">find</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-group mt-5">
+                <div class="card rounded-top-5" >
+                  <div class="today d-flex justify-content-between p-2  rounded-top-5 ">
+                      <span id="thisDay"></span>
+                      <span id="month"></span>
+                      <span id="dayOfMonth"></span>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" id="location"></h5>
+                    <div class="cardDeg">
+                        <span class="fs-1 fw-bold" id="deg"></span>
+                        <img src="" alt="">
+                        <p id="condition" class="text-info"></p>
+                    </div>
+                  </div>
+                  <div class="card-footer p-0">
+                    <ul class="list-inline">
+                        <li class="list-inline-item me-5"><i class="fa-solid fa-umbrella"></i>20%</li>
+                        <li class="list-inline-item me-5"><i class="fa-solid fa-wind"></i>8km/h</li>
+                        <li class="list-inline-item"><i class="fa-regular fa-compass"></i>East</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card card-two text-center rounded-top-5">
+                  <div class="today  rounded-top-5 p-2 ">
+                      <span id="thatDay"></span>
+                  </div>
+                  <div class="card-body">
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="" alt="" width="48">
+                        </div>
+                        <div class="degree fs-4 fw-bold" id="maxDegree"></div>
+                        <small id="minDegree" class="fs-4 fw-bold"></small>
+                        <div class="custom text-info"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card text-center rounded-top-5">
+                  <div class="today rounded-top-5 p-2">
+                      <span id="nextDay"></span>
+                  </div>
+                  <div class="card-body">
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="" alt="" width="48">
+                        </div>
+                        <div class="degree fs-4 fw-bold" id="thatMaxDegree"></div>
+                        <small id="thatMinDegree" class="fs-4 fw-bold"></small>
+                        <div class="custom" id=></div>
+                    </div>
+                  </div>
+        
+                  </div>
+                </div>
+        </div>
+    </div>
+
+      </div>
+    </div>
+    <!-- end home  -->
+</div>
+   </header>
+   <!-- end header  -->
+   <!-- start footer  -->
+<footer >
+    <div class="footer py-3 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11 offset-md-1">
+                    <div class="content-footer">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="signin position-relative mt-5">
+                                    <input type="text" class="search form-control py-2 bg-dark rounded-5 border-0  text-white" placeholder="enter your email to subscribe">
+                                    <button class="btn btn-info position-absolute bottom-0 top-0 end-0 text-white px-3  rounded-5 fs-6">subscribe</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="links">
+                                    <ul class="list-inline text-center mt-5">
+                                        <li class="list-inline-item "> <span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                                        <li class="list-inline-item"> <span><i class="fa-brands fa-twitter"></i></span></a></li>
+                                        <li class="list-inline-item"> <span><i class="fa-brands fa-google-plus"></i></span></a></li>
+                                        <li class="list-inline-item"> <span><i class="fa-brands fa-pinterest"></i></span></a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p >Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer  -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

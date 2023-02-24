@@ -1,0 +1,79 @@
+.container .nav-link.active,
+.container .nav-link,
+.container .nav-link:focus
+{
+    color: white;
+    font-size: 20px;
+transition:all .5s;
+border: 2px solid transparent;
+border-radius:30px;
+margin-right: 9px;
+padding: 0 10px;
+
+}
+.container li .nav-link.active,
+.container li .nav-link:hover,
+.container li .nav-link:focus
+{
+    border-color: #009ad8;
+    color: #009ad8;
+
+}
+.text-logo{
+    vertical-align: middle;
+}
+.navbar{
+    background-color: #262936;
+}
+.home{
+    background-image: url(../images/1920x450.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.search::placeholder{
+color:#cccc;
+font-size: 14px;
+padding: 5px;
+
+}
+.card{
+    background-color: #323544;
+    color: white;
+}
+.card .today{
+    background-color: #262936;
+}
+.card-two{
+    background-color: #262936;
+}
+.card-two .today{
+    background-color:#323544;
+}
+.links li span{
+    display: block;
+    border-radius: 50%;
+   width: 45px;
+   height: 45px;
+    color: #009ad8;
+font-size: 1.3rem;
+line-height: 1.9;
+transition: all .5s;
+cursor: pointer;
+background-color: #212529;
+}
+.links li span:hover{
+background-color: #009ad8;
+color: white;
+}
+
+button.navbar-toggler {
+    background-color: #009ad8;
+}
+button.navbar-toggler:focus {
+    outline:none !important;
+    border:none !important;
+}
+.footer{
+    background-color: #262936;
+}
